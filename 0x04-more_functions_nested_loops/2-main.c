@@ -3,8 +3,9 @@
 
 /**
  * main - check the code
- *
- * Return: Always 0.
+ *@a: input
+ *@b: input
+ * Return: product of a & b
  */
 int main(void)
 {
