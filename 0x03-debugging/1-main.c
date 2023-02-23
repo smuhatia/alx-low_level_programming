@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - causes an infinite loop
-* To fix the infite loop in the while loop we add 'i++'
+* main - causes an infinite loop and to fix the infite loop in the while loop we add 'i++;'
 * Return: 0
 */
 
