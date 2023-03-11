@@ -1,14 +1,15 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
+
 /**
- * main - prints the name of itself
- * @argc: count of array
- * @argv: array value of argc
- *
- * Return: Always 0
- */
+* main - program that prints its name
+* @argc: array count
+* @argv: array containing elements
+*
+* Return: 0 on success
+*/
 int main(int argc, char **argv)
 {
 	printf("%s\n", argv[argc - 1]);
-	return 0;
-}	
+	return (0);
+}
