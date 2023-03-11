@@ -1,24 +1,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *main - multiply elements
- *@argc: argumment count
- *@argv: number of elements to be multiplied
- *Return: Always 0
- */
+  * main - program that multiplies two numbers
+  * @argc: number of arguments passed
+  * @argv: vector of pointers to strings passed
+  *
+  * Return: 0 (success) or -1 (error)
+  */
 int main(int argc, char *argv[])
-
 {
-	int a;
-	int b;
-	if (argc == 3)
+	int i, j;
 
+	if (argc == 3)
 	{
-		a = atoi(argv[1]);
-		b = atoi(argv[2]);
-		printf("%d\n", a * b);
+		i = atoi(argv[1]);
+		j = atoi(argv[2]);
+		printf("%d\n", i * j);
+
 		return (0);
 	}
-	printf("error\n");
+	printf("Error\n");
 	return (1);
 }
