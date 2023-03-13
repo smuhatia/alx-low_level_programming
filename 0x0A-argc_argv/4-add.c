@@ -9,17 +9,19 @@
   * Return: 0 (success)
   */
 int main(int argc, char *argv[])
+
 {
 	int sum = 0;
 	int c;
-	for(c = 1; c < argc; c++)
+
+	for (c = 1; c < argc; c++)
 	{
-		if(*argv[c] < '0' || * argv[c] > '9')
+		if (*argv[c] < '0' || *argv[c] > '9')
 		{
 			printf("Error\n");
 			return (1);
 		}
-		sum =sum + atoi(argv[c]);
+		sum = sum + atoi(argv[c]);
 	}
 	printf("%d\n", sum);
 	return (0);
