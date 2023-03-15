@@ -7,4 +7,4 @@
 | 0x00-hello_world      | contains scripts and C program demonstrating the basics of the C language       |
 | 0x01-variables_if_else_while   | ontains C program files on conditionals in the C language        |
 | 0x02-functions_nested_loops    | contains C program files on functions, loops and nested loops in the C language        |
-
+| 0x03-debuggin    | contains C program files on debuggind various C source codes with certain bugs        |
