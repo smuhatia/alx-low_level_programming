@@ -15,3 +15,4 @@
 | 0x08. C    | Recursion - This repo contains source code on recursive function implementation    |
 | 0x09. C     | Static libraries - This repo contains an archieve static library file containing all functions used in previous repos and a script to create a static library from .c files     |
 | 0x0A. C    | argc, argv - repo contains source code of manipulation of various arguments to main program passed by the commandline    |
+| 0x0B. C   | This repo contains Automatic and dynamic allocation, malloc and free implimentations     |
