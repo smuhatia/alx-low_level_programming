@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * binary_to_unit - function that converts a binary number
- * to an unsigned int
- * @b: pointer to a string of 0s and 1s to be converted
- *
- * Return: converted unit or 0 if error
- */
+  * binary_to_uint - function that converts a binary number
+  * to an unsigned int
+  * @b: pointer to a string of 0s and 1s to be converted
+  *
+  * Return: converted uint or 0 if error
+  */
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int num = 0;
@@ -15,7 +15,7 @@ unsigned int binary_to_uint(const char *b)
 		return (0);
 	i = 0;
 
-	while (b[i])
+	while (b[i] != '\0')
 	{
 		if (b[i] == '0' || b[i] == '1')
 		{
@@ -31,3 +31,4 @@ unsigned int binary_to_uint(const char *b)
 
 	return (num);
 }
+

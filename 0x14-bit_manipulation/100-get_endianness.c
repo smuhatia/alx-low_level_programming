@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * get_endianness - function gets endianness and returns
+ * get_endianness - its a function gets endianness and returns
  * an int based on the int value result
  * return: int value (endianness)
 */
