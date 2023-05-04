@@ -1,6 +1,6 @@
-iinclude "main.h"
+#include "main.h"
 /**
- * binary_to_uint- this is a function that converts a binary number 
+ * binary_to_uint- this is a function that converts a binary number
  * to become an unsigned integer
  * @b: this is a pointer to a string containing 0s and 1s
  *
