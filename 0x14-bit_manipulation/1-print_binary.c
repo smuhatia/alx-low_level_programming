@@ -16,15 +16,14 @@ void print_binary(unsigned long int n)
 	while (i >= 0)
 	{
 		val = n >> 1;
-		if (val & 1)
+		if (val > 1)
 		{
-			_putchar('1');
-			count++;
+			_putchar ('1');
 		}
 		else if (count)
 			_putchar('0');
 		i--;
 	}
 	if (!count)
-		_putchar('0');
+		_putchar((n & 1) + '0');
 }
